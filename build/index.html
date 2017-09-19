@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>Html shell page</title>
+<link href="main.css" rel="stylesheet"></head>
+
+<body>
+
+  <h1>recent stories</h1>
+  <p>a widget by <a href="http://www.annaleach.net/"> Anna Leach</a></p>
+
+  <div class="stories">
+    <div class="container">
+
+      <input type="radio" id="tab-uknews" name="story-widget" checked>
+      <label for="tab-uknews">UK news</label>
+
+      <input type="radio" id="tab-travel" name="story-widget">
+      <label for="tab-travel">Travel</label>
+
+      <input type="radio" id="tab-football" name="story-widget">
+      <label for="tab-football">Football</label>
+
+      <div class="content uknews">
+        <ol></ol>
+        <noscript><p class="no-js-warning">Sorry this content cannot be loaded.</p></noscript>
+      </div>
+
+      <div class="content travel">
+        <ol>
+        </ol>
+        <noscript><p class="no-js-warning">Sorry this content cannot be loaded.</p></noscript>
+      </div>
+
+      <div class="content football">
+        <ol></ol>
+        <noscript><p class="no-js-warning">Sorry this content cannot be loaded.</p></noscript>
+      </div>
+
+    </div>
+  </div>
+
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
